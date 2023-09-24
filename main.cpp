@@ -34,7 +34,7 @@ WiFiUDP ntpUDP;
 const char* host = "qyapi.weixin.qq.com";       // 设置主机名
 const int httpsPort = 443;                      // 设置https端口
 String url = "";                                // 请求的页面地址(后面代码中进行拼接)
-const char fingerprint[] PROGMEM = "d7 44 9f ae 6d 5d 92 18 9c a4 ff a4 8e 3d 05 ef f7 11 10 cf";   //设置企业微信api的对应证书指纹  注意有时候需要更新证书指纹
+const char fingerprint[] PROGMEM = "7A 40 AE 3E 56 98 D8 FF DF EE 5E 91 B3 53 0A 27 B4 C1 D9 5C";   //设置企业微信api的对应证书指纹  注意有时候需要更新证书指纹
 String corp_id = "DDDD";                                                              // 把DDDD替换成你的企业微信的企业id
 String corp_secret = "PPPP";                                 // 把你的PPPP替换成你的企业微信的打卡应用secret
 String posturl;
